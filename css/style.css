@@ -1,0 +1,179 @@
+@import url(font.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik-Regular';
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav__list{
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav__link{
+    color: black;
+    line-height: 19px;
+    transition: 0.5s;
+    display: block;
+    padding: 30px 0;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+.nav__link:hover{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.nav__search{
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__input{
+    border: 1px solid black;
+    border-radius: 10px 0 0 10px;
+    color: black;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 12px;
+    outline: none;
+    width: 100%;
+
+}
+.nav__btn{
+    border-radius: 0 10px 10px 0;
+    background: black;
+    color: white;
+    padding: 8px 17px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.header{
+    background: url(../img/orqa\ fon.png) no-repeat center/cover;
+    height: 100vh;
+    background-position: top;
+}
+
+.hader__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.header__content-title{
+    font-size: 59px;
+    font-family: 'Rubik-SemiBold';
+    line-height: 70px;
+    padding: 20px 0 10px;
+    color: white;
+}
+.header__content-text{
+    color: white;
+    font-size: 26px;
+    font-family: 'Rubik-Light';
+    text-transform: uppercase;
+}
+
+.cards__card{
+    width: 25%;
+    background: #181D28;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 20px 0;
+    row-gap: 24px;
+}
+.cards__card-title{
+    color: white;
+    font-size: 18px;
+    font-family: 'Rubik-SemiBold';
+    line-height: 21px;
+    
+}
+.cards__card:hover{
+    background: rgba(107, 75, 107, 1);
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+}
+.gear{
+    padding: 40px 0;
+}
+.gear__title{
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 20px;
+    font-family: 'Rubik-SemiBold';
+}
+.gear__text{
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 40px;
+}
+.gear__img{
+    width: 100%;
+}
+.clothing__title{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Rubik-SemiBold';
+
+}
+.clothing__content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.clothing__content-item{
+    padding-bottom: 14px;
+}
+.clothing__content-link{
+    color: black;
+    font-size: 15px;
+    line-height: 18px;
+}
+.footer{
+    background: rgba(24, 29, 40, 1);
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer__title{
+    display: flex;
+    column-gap: 30px;
+}
+.footer__link{
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+}
